@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		878120FC294DF93B00257795 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878120FB294DF93B00257795 /* StorageManager.swift */; };
+		878120FE294E344A00257795 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878120FD294E344A00257795 /* StartButtonView.swift */; };
+		87812100294E351500257795 /* LogOutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878120FF294E351500257795 /* LogOutButtonView.swift */; };
 		A80D393B294A077F00BE3266 /* StateAndDataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D393A294A077F00BE3266 /* StateAndDataFlowApp.swift */; };
 		A80D393D294A077F00BE3266 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D393C294A077F00BE3266 /* ContentView.swift */; };
 		A80D393F294A077F00BE3266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80D393E294A077F00BE3266 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		878120FB294DF93B00257795 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		878120FD294E344A00257795 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		878120FF294E351500257795 /* LogOutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButtonView.swift; sourceTree = "<group>"; };
 		A80D3937294A077F00BE3266 /* StateAndDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateAndDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80D393A294A077F00BE3266 /* StateAndDataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndDataFlowApp.swift; sourceTree = "<group>"; };
 		A80D393C294A077F00BE3266 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				A80D394E294A530900BE3266 /* StarterView.swift */,
 				A80D394A294A4F3400BE3266 /* RegisterView.swift */,
 				A80D393C294A077F00BE3266 /* ContentView.swift */,
+				878120FD294E344A00257795 /* StartButtonView.swift */,
+				878120FF294E351500257795 /* LogOutButtonView.swift */,
 				A80D3948294A47C100BE3266 /* TimeCounter.swift */,
 				A80D394C294A501D00BE3266 /* UserManager.swift */,
 				878120FB294DF93B00257795 /* StorageManager.swift */,
@@ -155,8 +161,10 @@
 				A80D3949294A47C100BE3266 /* TimeCounter.swift in Sources */,
 				A80D394B294A4F3400BE3266 /* RegisterView.swift in Sources */,
 				A80D394F294A530900BE3266 /* StarterView.swift in Sources */,
+				87812100294E351500257795 /* LogOutButtonView.swift in Sources */,
 				A80D393D294A077F00BE3266 /* ContentView.swift in Sources */,
 				A80D394D294A501D00BE3266 /* UserManager.swift in Sources */,
+				878120FE294E344A00257795 /* StartButtonView.swift in Sources */,
 				A80D393B294A077F00BE3266 /* StateAndDataFlowApp.swift in Sources */,
 				878120FC294DF93B00257795 /* StorageManager.swift in Sources */,
 			);
