@@ -11,13 +11,10 @@ struct ContentView: View {
     @StateObject private var timer = TimeCounter()
     @EnvironmentObject private var userManager: UserManager
     private var storageManager = StorageManager()
-    private var name: String {
-        storageManager.takeName()
-    }
     
     var body: some View {
         VStack {
-            Text("Hi, \(name)")
+            Text("Hi, \(storageManager.takeName())")
                 .font(.largeTitle)
                 .padding(.top, 100)
             Text(timer.counter.formatted())
@@ -31,7 +28,6 @@ struct ContentView: View {
     }
     
     private func logOut() {
-        userManager.name = ""
         userManager.isRegister = false
         storageManager.logOut()
     }
